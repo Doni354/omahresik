@@ -18,7 +18,7 @@
             <div class="row gx-5 align-items-center" style="min-height: 500px;">
                 <div class="col-lg-5 mb-5 mb-lg-0">
                     <div class="position-relative h-100 d-flex align-items-center justify-content-center">
-                        <img class="rounded wow zoomIn lazyload" data-wow-delay="0.9s" data-src="<?= base_url('asset-user/images/' . $descper->foto_utama); ?>" style="object-fit: contain; object-position: center; max-width: 100%; max-height: 100%;">
+                        <img class="rounded wow zoomIn lazyload" data-wow-delay="0.9s" data-src="<?= base_url('asset-user/images/' . $descper->foto_utama); ?>" alt="<?= base_url('asset-user/images/' . $descper->foto_utama); ?>" style="object-fit: contain; object-position: center; max-width: 100%; max-height: 100%;">
                     </div>
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center">
