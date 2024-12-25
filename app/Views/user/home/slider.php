@@ -3,7 +3,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <?php foreach ($tbslider as $key => $slider) : ?>
-                <div class="carousel-item<?= $key === 0 ? ' active' : ''; ?> bg-cover" style="background-image: url('asset-user/images/<?= $slider->file_foto_slider; ?>');">
+                <div class="carousel-item<?= $key === 0 ? ' active' : ''; ?> bg-cover" style="background-image: url('/asset-user/images/<?= $slider->file_foto_slider; ?>');">
                 </div>
             <?php endforeach; ?>
         </div>
