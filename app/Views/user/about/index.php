@@ -1,7 +1,7 @@
 <?= $this->extend('user/template/template') ?>
 <?= $this->Section('content'); ?>
 
-<div class="container-fluid page-header-2 py-5 mb-5 wow fadeIn lazyload" data-wow-delay="0.1s" style="min-height: 200px; display: flex; align-items: center; justify-content: center; background-image: url('<?= base_url('./asset-user/images/hero_14.jpg'); ?>');">
+<div class="container-fluid page-header-2 py-5 mb-5 wow fadeIn lazyload" data-wow-delay="0.1s" style="min-height: 200px; display: flex; align-items: center; justify-content: center; background-image: url('<?= base_url('./asset-user/images/hero_14.jpg'); ?>'); alt="<?= base_url('asset-user/images/' . $descper->foto_utama); ?>"">
     <div class="container text-center py-5" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
         <?php foreach ($profil as $perusahaan) : ?>
             <h3 class="display-6 text-white mb-4 animated slideInDown">
